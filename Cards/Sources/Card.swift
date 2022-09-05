@@ -112,6 +112,7 @@ import UIKit
             detailVC.card = self
             detailVC.delegate = self.delegate
             detailVC.isFullscreen = fullscreen
+            detailVC.modalPresentationStyle = .fullScreen
         }
     }
     /**
